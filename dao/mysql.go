@@ -6,7 +6,7 @@ import (
 	"gorm.io/gorm"
 )
 
-const dsn = "gosql:11223344@tcp(123.56.17.185:3306)/bubble?charset=utf8mb4&parseTime=True"
+const dsn = "user:password@tcp(ip)/bubble?charset=utf8mb4&parseTime=True"
 
 var (
 	DB *gorm.DB
